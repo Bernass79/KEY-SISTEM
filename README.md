@@ -1,7 +1,7 @@
 -- Lista de nicks permitidos (whitelist)
 local Whitelist = {
     "Puls3Rid3rNinja2015",
-    "Epic_storm57",
+    "Epic_Storm57",
 }
 
 -- Função para verificar se o jogador está na whitelist
