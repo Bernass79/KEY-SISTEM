@@ -2,7 +2,7 @@
 local Whitelist = {
     "Puls3Rid3rNinja2015",
     "Epic_Storm57",
-     "XxLuckyBlazeBlastx",
+     "XxLuckyBlazeBlastxX",
      "SebastianWraith20186",
 }
 
