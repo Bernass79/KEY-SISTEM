@@ -4,7 +4,7 @@ local Whitelist = {
     "Epic_Storm57",
      "XxLuckyBlazeBlastxX",
      "os_drakes00",
-     "bloxGh12",
+     "bloxGH12",
      "XxJam3sJ3llySt3althx",
 }
 -- Função para verificar se o jogador está na whitelist
