@@ -5,8 +5,8 @@ local Whitelist = {
      "XxLuckyBlazeBlastxX",
      "os_drakes00",
      "bloxGh12",
+     "XxJam3sJ3llySt3althx",
 }
-
 -- Função para verificar se o jogador está na whitelist
 local function CheckWhitelist(player)
     for _, name in pairs(Whitelist) do
