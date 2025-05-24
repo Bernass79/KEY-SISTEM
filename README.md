@@ -3,7 +3,7 @@ local Whitelist = {
     "Puls3Rid3rNinja2015",
     "Epic_Storm57",
      "XxLuckyBlazeBlastxX",
-     "SebastianWraith20186",
+     "os_drakes00",
 }
 
 -- Função para verificar se o jogador está na whitelist
