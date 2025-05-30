@@ -1,7 +1,7 @@
 -- Lista de nicks permitidos (whitelist)
 local Whitelist = {
     "Brayann46324",
-    "Epic_Storm57",
+    "Raian10989",
      "XxLuckyBlazeBlastxX",
      "os_drakes00",
      "ARTHURchs6",
