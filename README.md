@@ -2,10 +2,10 @@
 local Whitelist = {
     "Brayann46324",
     "Raian10989",
-     "XxLuckyBlazeBlastxX",
+     "sheilla101256",
      "os_drakes00",
      "ARTHURchs6",
-     "XxJam3sJ3llySt3althx",
+     ".",
 }
 -- Função para verificar se o jogador está na whitelist
 local function CheckWhitelist(player)
