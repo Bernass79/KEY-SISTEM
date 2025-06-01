@@ -2,7 +2,7 @@
 local Whitelist = {
     "malucodemeiatigela7",
     "pedromarretodoido39",
-     "x",
+     "ellensmith_9",
      "x",
      "x",
      ".",
