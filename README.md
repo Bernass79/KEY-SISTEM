@@ -1,7 +1,7 @@
 -- Lista de nicks permitidos (whitelist)
 local Whitelist = {
-    "x",
-    "x",
+    "malucodemeiatigela7",
+    "Davmbr21",
      "x",
      "x",
      "x",
