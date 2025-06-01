@@ -4,7 +4,7 @@ local Whitelist = {
     "XxBacon_CYBERXX48",
      "ellensmith_9",
      "NoraStormArrow",
-     "x",
+     "XxEmmaBytexX2020",
      ".",
 }
 -- Função para verificar se o jogador está na whitelist
