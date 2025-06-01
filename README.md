@@ -1,11 +1,11 @@
 -- Lista de nicks permitidos (whitelist)
 local Whitelist = {
-    "malucodemeiatigela7",
+    "jujufofinhaGg123",
     "XxBacon_CYBERXX48",
      "ellensmith_9",
      "NoraStormArrow",
      "XxEmmaBytexX2020",
-     ".",
+     "XxShadowTig3rChaosxX",
 }
 -- Função para verificar se o jogador está na whitelist
 local function CheckWhitelist(player)
