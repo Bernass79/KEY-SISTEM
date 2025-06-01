@@ -1,32 +1,30 @@
--- Lista de nicks permitidos (whitelist)
-local Whitelist = {
-    "jujufofinhaGg123",
-    "XxShadowTig3rChaosxX",
-     "ellensmith_9",
-     "NoraStormArrow",
-     "XxEmmaBytexX2020",
-     ".",
-}
--- Função para verificar se o jogador está na whitelist
-local function CheckWhitelist(player)
-    for _, name in pairs(Whitelist) do
-        if player.Name == name then
-            return true
-        end
+-- ID do grupo
+local GROUP_ID = 35079880
+
+-- Função para verificar se o jogador está no grupo
+local function CheckGroupMembership(player)
+    local success, result = pcall(function()
+        return player:IsInGroup(GROUP_ID)
+    end)
+    
+    if success then
+        return result
+    else
+        warn("Erro ao verificar associação ao grupo: " .. tostring(result))
+        return false -- Retorna false em caso de erro para evitar falsos positivos
     end
-    return false
 end
 
 -- Evento para novos jogadores que entram
-game.Players.PlayerAdded:Connect(function(player)
-    if not CheckWhitelist(player) then
-        player:Kick("Player não está na whitelist")
+game:GetService("Players").PlayerAdded:Connect(function(player)
+    if not CheckGroupMembership(player) then
+        player:Kick("Você não está no grupo requerido!")
     end
 end)
 
 -- Verifica jogadores já no servidor quando o script inicia
-for _, player in pairs(game.Players:GetPlayers()) do
-    if not CheckWhitelist(player) then
-        player:Kick("Player não está na whitelist")
+for _, player in pairs(game:GetService("Players"):GetPlayers()) do
+    if not CheckGroupMembership(player) then
+        player:Kick("Você não está no grupo requerido!")
     end
 end
