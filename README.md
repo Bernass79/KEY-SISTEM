@@ -1,10 +1,10 @@
 -- Lista de nicks permitidos (whitelist)
 local Whitelist = {
-    "Thalysson12092",
-    "Raian10989",
-     "sheilla101256",
-     "ellensmith_9",
-     "ARTHURchs6",
+    "x",
+    "x",
+     "x",
+     "x",
+     "x",
      ".",
 }
 -- Função para verificar se o jogador está na whitelist
